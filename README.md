@@ -12,7 +12,7 @@ Universal Friendship is a Geode mod for Geometry Dash that pretends every user i
 
 ## Building
 
-This project follows the standard [Geode](https://github.com/geode-sdk/geode) CMake layout. Make sure the `GEODE_SDK_PATH` environment variable points to your Geode SDK folder before configuring the project.
+This project follows the standard [Geode](https://github.com/geode-sdk/geode) CMake layout. Install the SDK with the Geode CLI and make sure the `GEODE_SDK_PATH` environment variable points to your Geode SDK folder (the CLI command `geode setup sdk` will do both).
 
 ```bash
 cmake -B build
